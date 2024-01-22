@@ -1,6 +1,8 @@
 # Клонируем приложение из репозитория и переходим в него.
-git clone git@github.com:Lovesnakes/pythonProject_FastAPI.git
-cd menu
+
+git clone https://github.com/Lovesnakes/pythonProject_FastAPI.git
+
+cd pythonProject_FastAPI
 
 # Создаем БД в PostgreSQL, добавляем в .env  переменную DB_PASS с паролем от БД
 # Создаем виртуальное окружение в дериктории проекта и активируем его
